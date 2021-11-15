@@ -1,0 +1,98 @@
+body{
+    background-color: aqua;
+}
+
+#regulator{
+    width: 41%;
+    height:570px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: solid 5px black;
+}
+
+#needle{
+    position: absolute;
+    width: 210px;
+    height: 30px;
+    background-color: white;
+    border: solid 2px black;
+    top: 360px;
+    left: 268px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    transform: rotate(270deg);
+    transform-origin: bottom;   
+}
+
+
+#stopwatch{
+    width: 41%;
+    height:570px;
+    border: solid 5px black;
+    margin-top: 20px;
+    margin-left: 40px;
+
+}
+
+#inputt{
+    width: 330px;
+    height: 120px;
+    position: absolute;
+    top: 210px;
+    background-color: rgb(19, 18, 88);
+    left: 850px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#data{
+    width: 150px;
+    height: 60px;
+    margin-left: 620px;
+    border: solid 10px brown;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#ok{
+    width: 70px;
+    height: 54px;
+    border: solid 10px rgb(55, 9, 184);
+}
+
+#pause{
+    width: 90px;
+    height: 54px;
+    border: solid 10px rgb(245, 222, 14);
+    position: absolute;
+    top: 450px;
+    left: 870px;
+}
+
+#pause:hover{
+    background-color: brown;
+}
+#restart{
+    width: 90px;
+    height: 54px;
+    border: solid 10px rgb(255, 232, 21);
+    position: absolute;
+    top: 450px;
+    left: 1050px;
+}
+
+#restart:hover{
+    background-color: brown;
+
+}
+
+#ok:hover{
+    background-color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    border: solid 10px brown;
+}
